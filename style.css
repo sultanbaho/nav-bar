@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.topNav-link ul {
+    display: flex !important;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.topNav-link ul li {
+    margin-left: 3%;
+    list-style-type: none;
+    color: #333;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.search_wrap {
+    margin: 2% auto;
+}
+
+.search_box {
+    display: grid;
+    grid-template-columns: 25% 1fr 7%;
+    padding: 5px 0%;
+    outline: 1px solid rgb(238, 69, 69);
+    outline-offset: -1px;
+}
+
+.search_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_left button {
+    background: none;
+    border: none;
+    outline: none;
+    color: #333;
+    font-size: 14px;
+}
+.search_center input[type="text"] {
+    width: 100%;
+    padding: 5px 7px;
+    border: none;
+    border-left: 1px solid rgb(119, 119, 119);
+    background: none;
+    outline: none;
+    color: #333;
+}
+
+.search_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_right button {
+    border: none;
+    background: none;
+    outline: none;
+    color: #333;
+    font-size: 16px;
+}
+.nav_middal {
+    display: grid;
+    grid-template-columns: 20% 1fr 35%;
+}
+.nav_left {
+    display: flex;
+    align-items: center;
+}
+.nav_center {
+    padding-top: 2%;
+}
+.nav_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+.NR_box {
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.NR_box span {
+    font-size: 1rem;
+}
+.NR_box p {
+    font-size: 13px;
+}
+.NR_box:hover {
+    color: rgb(238, 69, 69);
+}
+
+.nav_bottom {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    color: #fff;
+}
+.NB-left {
+    background-color: rgb(238, 69, 69);
+    padding: 10px;
+    cursor: pointer;
+}
+.NB-center {
+    padding-top: 12px;
+}
+.NB-center ul {
+    display: flex;
+    align-items: center;
+}
+.NB-center ul li {
+    list-style-type: none;
+    margin-right: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.NB-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+    cursor: pointer;
+}
